@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/cj-kenney/sickfits/dev
-# timestamp: Wed Feb 06 2019 20:47:32 GMT-0600 (CST)
+# timestamp: Wed Feb 06 2019 21:15:14 GMT-0600 (CST)
 
 type AggregateItem {
   count: Int!
@@ -470,7 +470,7 @@ type PageInfo {
 
 enum Permission {
   ADMIN
-  User
+  USER
   ITEMCREATE
   ITEMUPDATE
   ITEMDELETE
